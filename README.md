@@ -5,11 +5,11 @@ In order app to work must follow the below steps
  
  You can find it [here](https://github.com/anSpiros/XM_project)
  
- When clone completes or download, navigate to `web` folder and run `npm install` .
+ When clone completes or download, navigate to `front` folder and run `npm install` .
   
  Also, navigate to `server` folder and run `composer update`
  
-In the `web` directory, you can run:
+In the `front` directory, you can run:
 
 `npm start` to start the local server for front end application.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
