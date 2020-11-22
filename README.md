@@ -5,7 +5,9 @@ In order app to work must follow the below steps
  
  You can find it [here](https://github.com/anSpiros/XM_project)
  
- When clone completes or download, navigate to `web` folder and run `npm install` . Also, navigate to `server` folder and run `composer update`
+ When clone completes or download, navigate to `web` folder and run `npm install` .
+  
+ Also, navigate to `server` folder and run `composer update`
  
 In the `web` directory, you can run:
 
