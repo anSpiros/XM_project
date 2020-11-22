@@ -7,7 +7,7 @@ In order app to work must follow the below steps
  
  When clone completes or download, navigate to `front` folder and run `npm install` .
   
- Also, navigate to `server` folder and run `composer update`
+ Also, navigate to `back` folder and run `composer update`
  
 In the `front` directory, you can run:
 
@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 `npm test` to run all tests.\
 Launches the test runner in the interactive watch mode.
 
-In the `server` directory, you can run:
+In the `back` directory, you can run:
 
 `symfony server:start` to start the local server for back end application
 
