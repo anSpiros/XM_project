@@ -26,6 +26,6 @@ In the `back` directory, you can run:
 `symfony server:stop` to stop the local server
 
 ### Notes
-
+You must have installed symfony in order to use `symfony server:start`
 For easier installation use **`symfony version 5.1`** and **`composer 2.0`**
 
