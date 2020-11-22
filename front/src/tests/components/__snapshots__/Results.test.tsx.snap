@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="row results"
+  >
+    <div
+      class="col-12 results-company"
+    >
+      <h3
+        class="results-company__name"
+      >
+        test
+      </h3>
+    </div>
+    <div
+      class="col-12"
+    >
+      <div
+        class="chart-wrapper"
+      />
+    </div>
+    <div
+      class="col-12 results-table"
+    >
+      <div
+        class="table-responsive"
+      >
+        <table
+          class="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Date
+              </th>
+              <th>
+                Open
+              </th>
+              <th>
+                High
+              </th>
+              <th>
+                Low
+              </th>
+              <th>
+                Close
+              </th>
+              <th>
+                Volume
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                test
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                2
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                2
+              </td>
+              <td>
+                3
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

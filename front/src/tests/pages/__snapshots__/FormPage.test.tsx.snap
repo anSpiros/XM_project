@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form page component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <div
+      class="col-12"
+    >
+      <form
+        class="form-wrapper"
+      >
+        <div
+          class="form-group"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-6"
+            >
+              <label
+                for="startDate"
+              >
+                Start date
+              </label>
+              <div
+                class="DayPickerInput"
+              >
+                <input
+                  class="form-control"
+                  id="startDate"
+                  name="startDate"
+                  placeholder="YYYY-M-D"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-6"
+            >
+              <label
+                for="endDate"
+              >
+                End date
+              </label>
+              <div
+                class="DayPickerInput"
+              >
+                <input
+                  class="form-control"
+                  id="endDate"
+                  name="endDate"
+                  placeholder="YYYY-M-D"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-6"
+            >
+              <label
+                for="symbol"
+              >
+                Symbol
+              </label>
+              <select
+                class="custom-select"
+                id="symbol"
+                name="symbol"
+              >
+                <option
+                  disabled=""
+                  selected=""
+                  value=""
+                >
+                  Select
+                </option>
+                <option
+                  value="AAPL"
+                >
+                  Apple Inc.
+                </option>
+                <option
+                  value="MSFT"
+                >
+                  AppleMicrosoft Corporation
+                </option>
+                <option
+                  value="AMZN"
+                >
+                  Amazon.com
+                </option>
+                <option
+                  value="GOOGL"
+                >
+                  Alphabet Inc.
+                </option>
+                <option
+                  value="FB"
+                >
+                  Facebook, Inc.
+                </option>
+                <option
+                  value="TCEHY"
+                >
+                  Tencent Holdings Ltd.
+                </option>
+                <option
+                  value="TSM"
+                >
+                  Taiwan Semiconductor
+                </option>
+              </select>
+            </div>
+            <div
+              class="col-12 col-sm-6"
+            >
+              <label
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                type="email"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <div
+            class="row justify-content-center"
+          >
+            <div
+              class="col-6"
+            >
+              <button
+                class="btn btn-primary w-100"
+                data-testid="resolved"
+                id="submit-btn"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

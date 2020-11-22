@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid header"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-12"
+      >
+        <ul
+          class="list-unstyled header-list mb-0"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/form"
+            >
+              Form
+            </a>
+          </li>
+          <li>
+            <a
+              href="/results"
+            >
+              Results
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

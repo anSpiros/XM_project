@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom select component should render correctly 1`] = `
+<DocumentFragment>
+  <select
+    class="custom-select"
+    id="symbol"
+    name="symbol"
+  >
+    <option
+      disabled=""
+      selected=""
+      value=""
+    >
+      Select
+    </option>
+    <option
+      value="AAPL"
+    >
+      Apple Inc.
+    </option>
+    <option
+      value="MSFT"
+    >
+      AppleMicrosoft Corporation
+    </option>
+    <option
+      value="AMZN"
+    >
+      Amazon.com
+    </option>
+    <option
+      value="GOOGL"
+    >
+      Alphabet Inc.
+    </option>
+    <option
+      value="FB"
+    >
+      Facebook, Inc.
+    </option>
+    <option
+      value="TCEHY"
+    >
+      Tencent Holdings Ltd.
+    </option>
+    <option
+      value="TSM"
+    >
+      Taiwan Semiconductor
+    </option>
+  </select>
+</DocumentFragment>
+`;
