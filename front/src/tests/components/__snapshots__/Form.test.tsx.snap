@@ -44,6 +44,7 @@ exports[`Form component should render correctly 1`] = `
           >
             <input
               class="form-control"
+              disabled=""
               id="endDate"
               name="endDate"
               placeholder="YYYY-M-D"
