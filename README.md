@@ -5,27 +5,20 @@ In order app to work must follow the below steps
  
  You can find it [here](https://github.com/anSpiros/XM_project)
  
- When clone completes or download, navigate to `front` folder and run `npm install` .
+ When clone completes or download, navigate to `docker` folder and run `docker-compose up --build` .
   
- Also, navigate to `back` folder and run `composer update`
- 
-In the `front` directory, you can run:
+When build completes , open [http://localhost:3000](http://localhost:3000) to view the front app in the browser.
 
-`npm start` to start the local server for front end application.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+At `docker` folder a `Makefile` exists.
 
-`npm test` to run all tests.\
-Launches the test runner in the interactive watch mode.
-
-In the `back` directory, you can run:
-
-`symfony server:start` to start the local server for back end application
-
-`php bin/phpunit` to run all tests
-
-`symfony server:stop` to stop the local server
-
-### Notes
-You must have installed symfony in order to use `symfony server:start`
-For easier installation use **`symfony version 5.1`** and **`composer 2.0`**
-
+The available commands for `Makefile` are the following:
+ - `make run-npm-install`
+     - Install all packages from package.json file
+ - `make npm-install-package`
+     - Install package
+ - `make npm-install-package-dev`
+    - Install package as devDependency
+ - `make run-front-tests`,
+    - Run all tests for front-end application
+ - `make run-back-tests`
+    - Run all tests for back-end application
